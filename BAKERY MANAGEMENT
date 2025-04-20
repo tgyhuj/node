@@ -1,0 +1,6 @@
+const firebaseConfig = {
+  apiKey: "AIzaSy....",
+  authDomain: "your-project.firebaseapp.com",
+  projectId: "your-project-id",
+  appId: "1:1234567890:web:abc123"
+};
