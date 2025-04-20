@@ -1,4 +1,24 @@
-<!--
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAXxRdxc52Iu8SW9PdCYPxNXmm0-6YJfZU",
+  authDomain: "bakery-management-software.firebaseapp.com",
+  projectId: "bakery-management-software",
+  storageBucket: "bakery-management-software.firebasestorage.app",
+  messagingSenderId: "54965404264",
+  appId: "1:54965404264:web:116719a08aa161be4df1dd",
+  measurementId: "G-WD2E70YM8H"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
   NB(chrisdickinson): if you move this file, be sure to update
   tools/doc/html.mjs to point at the new location.
 -->
